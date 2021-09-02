@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btnBUTTON"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        android:text="BUTTON"
+        android:onClick="somar"
+        android:textSize="15sp"
+        app:cornerRadius="32dp"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado"
+        app:strokeColor="@color/azul_500"
+        app:strokeWidth="3dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayout1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        app:endIconMode="clear_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtN1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="N1"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="28dp"
+        app:endIconMode="clear_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtN2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="N2"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
