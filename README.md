@@ -11,8 +11,10 @@ c)	As interfaces gráficas devem estar em conformidade com as figuras:  Figura 0
 
 
 ![image](https://user-images.githubusercontent.com/54014398/136127851-9a0156c7-9da6-47a5-8958-bb7f7c81b6b0.png)
+
 Figura 01: interface gráfica para autenticação  
  
 ![image](https://user-images.githubusercontent.com/54014398/136127877-c394705a-05d7-43f5-a805-f0e3716290ee.png)
+
 Figura 02: interface gráfica para somar dois decimais 
 
