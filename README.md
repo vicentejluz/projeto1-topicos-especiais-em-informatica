@@ -3,8 +3,11 @@ Atividade 1 da aula de Tópicos Especiais em Informática do curso de Análise e
 
 1.	Implementar as atividades correspondentes as figuras ilustradas nas Figura 01 e Figura 02   
 2.	A implementação deve ter os seguintes requisitos não funcionais:
+
 a)	A Interface gráfica deve ser do material design isso é as views devem ser componentes do material design 
+
 b)	O layout da activity deve ser ConstraintLayout  
+
 c)	As interfaces gráficas devem estar em conformidade com as figuras:  Figura 01 e Figura 02. 
 3.	A Figura 01 apresenta uma interface gráfica para a solução de autenticação. Não é necessário implementar o cadastro de login.
 4.	A Figura 02 apresenta uma interface gráfica para a operação aritmética somar dois números decimais  
